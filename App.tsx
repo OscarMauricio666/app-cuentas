@@ -10,13 +10,15 @@ import {
   View,
 } from 'react-native';
 import WelcomeScreen from './src/screens/welcomeScreen';
+import InComeScreen from './src/screens/inComeScreen';
 
 
 function App(): React.JSX.Element {
  
   return (
     <SafeAreaView  style={{flex:1, backgroundColor: 'red'}}>
-      <WelcomeScreen />
+      
+      <InComeScreen />
      
     </SafeAreaView>
   );

@@ -1,20 +1,20 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-export default function WelcomeScreen() {
+export default function InComeScreen() {
   return (
     <View style={styles.containerMain}>
       <View style={styles.containerHeader}>
         <View style={[styles.containerWelcome, , styles.card3, styles.cardElevated3]}>
-            <Text style={styles.texts}>Bienvenidos</Text>
+            <Text style={styles.texts}>Ingresos</Text>
         </View>
       </View>
       <View style={styles.containerBody}>
         <View style={[styles.containerIncome, styles.card1, styles.cardElevated1]}>
-            <Text style={styles.texts}>Ingresos</Text>
+            <Text style={styles.texts}>Crear Cuenta</Text>
         </View>
         <View style={[styles.containerOutlets, styles.card2, styles.cardElevated2]}>
-            <Text style={styles.texts}>Salidas</Text>
+            <Text style={styles.texts}>Cuentas Activas</Text>
         </View>
       </View>
     </View>
