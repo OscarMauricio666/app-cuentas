@@ -11,16 +11,18 @@ import {
 } from 'react-native';
 import WelcomeScreen from './src/screens/welcomeScreen';
 import InComeScreen from './src/screens/inComeScreen';
+import { NavigationContainer } from '@react-navigation/native';
 
 
 function App(): React.JSX.Element {
  
   return (
-    <SafeAreaView  style={{flex:1, backgroundColor: 'red'}}>
-      
-      <InComeScreen />
-     
-    </SafeAreaView>
+
+    <NavigationContainer>
+      <SafeAreaView  style={{flex:1, backgroundColor: 'red'}}>
+        <InComeScreen />
+      </SafeAreaView>
+    </NavigationContainer>
   );
 }
 
